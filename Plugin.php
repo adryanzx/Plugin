@@ -42,4 +42,4 @@ function client_customization_append_message( $content ) {
 
     return $content . $message;
 }
-add_filter( 'the_content', 'client_customization_append_message', 10 );
+add_filter( 'the_content', 'client_customization_message', 10 );
